@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    color: green;
+}
+
+.container {
+    text-align: center;
+}
+
+#quote-container {
+    max-width: 400px;
+    margin: auto;
+}
+
+#quote-text {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#generate-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
